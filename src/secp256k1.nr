@@ -1,6 +1,6 @@
 use dep::std;
 use dep::array_helpers;
-use keccak256::keccak256;
+use dep::keccak256::keccak256;
 
 pub struct PubKey {
     pub_x: [u8; 32],
